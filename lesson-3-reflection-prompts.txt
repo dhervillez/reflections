@@ -8,7 +8,8 @@ if I work on several computers
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+I'd rather only have stable version on GitHub, therefore automatic pull is not necessary
+Also it allows to work offline
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
