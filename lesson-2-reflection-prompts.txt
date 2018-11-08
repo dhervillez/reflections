@@ -11,13 +11,27 @@ it allows to keep commit simple and focused
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+compare staging area with last commit with git diff --staged
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+make experimental changes while keeping a master branch that hold a robust version of the code. Branches allow to make the code evolve in parallel.
+master --> production quality branch
+development --> active work
+experimental, unique feature branches
+
 How do the diagrams help you visualize the branch structure?
+
+it shows the different branches and the location of each commit. It helps also in understanding wether a commit is reachable or not (on a branch or not)
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+keep modification from both branches while holding original code
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+pros --> quicker and automatic
+cons --> conflicts can appear during merging and need to be resolved
