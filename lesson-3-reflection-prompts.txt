@@ -26,7 +26,9 @@ to avoid branching and awkward merge
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+Without git or github, I will collaborate by exchanging files without version control.
+Naming could replace the version control, but it will rapidly get confusing.
+I would certainly be more flexible with people not aware of git but more prone to errors as well.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
